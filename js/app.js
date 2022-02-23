@@ -16,10 +16,10 @@ const fetchData = async function() {
           <a href="https://ffxivcollect.com/api/mounts/${data.results[3].id}">Raw Data</a>
         </p>
         <p>${data.results[3].enhanced_description}</p>
-
         `;
 
       document.querySelector('.output').innerHTML = output;
+
   } catch (error) {
       // Handle any rejected Promise in the `try` block
       console.log(error);
