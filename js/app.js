@@ -7,7 +7,19 @@ const fetchData = async function() {
       }
       const data = await response.json();
 
-      console.log(data.results[3].patch);
+      console.log(data.results);
+
+      const output =`
+        <h1>${data.results[3].name}</h1>
+        <img src="${data.results[3].image}"></img>
+        <p>
+          <a href="https://ffxivcollect.com/api/mounts/${data.results[3].id}">Raw Data</a>
+        </p>
+        <p>${data.results[3].enhanced_description}</p>
+
+        `;
+
+      document.querySelector('.output').innerHTML = output;
   } catch (error) {
       // Handle any rejected Promise in the `try` block
       console.log(error);
