@@ -43,3 +43,19 @@ TODO: **Working on Fetching API Data Assignment**
     - Rejected fetch() Promises are handled by a catch block (for example, there is a network error) or similar
     - The request doesn't return a 200 OK response code such as 404 Not found
     - API data validated in case it's missing, is of an unexpected data type or otherwise undefined
+
+### Journal
+
+Took way too long looking for an API that is `Auth = No` and `CORS = Yes` that also had enough content to be displayed and also had an off-site link
+
+While watching the zoom video on *Exploring Open Date*, Tony mentions we can link the raw data as an off-site link... Had I watched a little longer it could've saved me like an hour or so... :'(
+
+Found a *Final Fantasy XIV* API!!
+
+Started by playing with some of the code. Trying to understand what is nested into what and how I can get to the information I want to
+
+Used the zoom video as refrence
+
+Using `console.log` to understand what is being called forth. Really helped in building the variable that are used to display the character information
+
+Done section 1 and 2 of the assignment so far... 
