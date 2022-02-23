@@ -59,3 +59,7 @@ Used the zoom video as refrence
 Using `console.log` to understand what is being called forth. Really helped in building the variable that are used to display the character information
 
 Done section 1 and 2 of the assignment so far... 
+
+Couldn't figure out how to reload the page with a button so I wrapped my HTML in a `<form>`
+
+That at least got the page to refresh. Now to re-configer some CSS and add a `event.preventDefault();`
