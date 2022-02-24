@@ -62,4 +62,9 @@ Done section 1 and 2 of the assignment so far...
 
 Couldn't figure out how to reload the page with a button so I wrapped my HTML in a `<form>`
 
-That at least got the page to refresh. Now to re-configer some CSS and add a `event.preventDefault();`
+At least that got the page to refresh. Now to re-configer some CSS and add a `event.preventDefault();`
+
+Have been trying for hours to not get the page to reload and just get the content to refresh but have been unsuccessful
+- X CSS has been re-configered 
+
+Will move into Error Handling for now...

@@ -1,8 +1,7 @@
-// function reloadPage()
-//         local.reload();
 const randomizer = (length) => {
   return Math.floor(Math.random() * length);
 } 
+  
 
 const fetchData = async function() {
 
@@ -33,15 +32,15 @@ const fetchData = async function() {
             <a href="https://ffxivcollect.com/api/mounts/${creatures.id}" >Raw Data</a>
           </p>
         
-          <p>${creatures.enhanced_description}</p>
+          <p class="des">${creatures.enhanced_description}</p>
 
-          <button onClick="reloadPage">Anothe' One</button>
+          <button type="submit">Anothe' One</button>
+          
         </form>
           `;
 
-      document.querySelector('.output').innerHTML = output;
-
       
+      document.querySelector('.output').innerHTML = output;
 
 
   } catch (error) {
