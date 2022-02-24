@@ -7,6 +7,8 @@
 
 - Used the zoom video '[Exploring Open Data](https://sait-ca.zoom.us/rec/share/WpcJ2ZqI0_BkFYKvAOeNIXtzfnlmLQ62-6F5yKoOCVczi0wVqyTJ7g4QGmwRZSdx.kwJOkwQZzMVxtXzq)' fron January the 17th as a guide. Thank You, Tony!
 
+- Here is where I got my idea for the colour scheme `[10 Contemporary and Bold](https://visme.co/blog/website-color-schemes/)`
+
 ## February 23, 2022
 TODO: **Working on Fetching API Data Assignment**
 
@@ -40,9 +42,9 @@ TODO: **Working on Fetching API Data Assignment**
 
   All errors must be handled gracefully:
 
-    - Rejected fetch() Promises are handled by a catch block (for example, there is a network error) or similar
-    - The request doesn't return a 200 OK response code such as 404 Not found
-    - API data validated in case it's missing, is of an unexpected data type or otherwise undefined
+    - X Rejected fetch() Promises are handled by a catch block (for example, there is a network error) or similar
+    - X The request doesn't return a 200 OK response code such as 404 Not found
+    - X API data validated in case it's missing, is of an unexpected data type or otherwise undefined
 
 ### Journal
 
@@ -67,4 +69,9 @@ At least that got the page to refresh. Now to re-configer some CSS and add a `ev
 Have been trying for hours to not get the page to reload and just get the content to refresh but have been unsuccessful
 - X CSS has been re-configered 
 
+I tried adding `const submitHandler = (event) => {
+  event.preventDefault();` inside and outside of the fetch function and it just kept breaking the code. Tried to added it with a separate javascript sheet and that didn't work either. Found some other code online, added it to my `btn.js` file and it also didn't work so I commented it out. Not sure how to add it so I can prevent the webpage from reloading. 
+
 Will move into Error Handling for now...
+
+As far as I am aware and I could see, we are all good when it comes to errors

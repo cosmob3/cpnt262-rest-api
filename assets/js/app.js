@@ -23,8 +23,9 @@ const fetchData = async function() {
 
       const output =`
         <form>
+          <h1>Final Fantasy Creatures</h1>
 
-          <h1>${creatures.name}</h1>
+          <h2>${creatures.name}</h2>
 
           <img src="${creatures.image}" alt="${creatures.name}"></img>
 
@@ -45,7 +46,7 @@ const fetchData = async function() {
 
   } catch (error) {
       // Handle any rejected Promise in the `try` block
-      console.log(error);
+      console.warn(error = "Something Went Wrong - PLEASE CHECK CODE");
   }
 }
 
