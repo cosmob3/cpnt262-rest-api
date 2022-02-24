@@ -1,0 +1,29 @@
+form{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 35rem;
+  width: 20rem;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+}
+
+img{
+display: flex;
+align-self: center;
+}
+
+a{
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: black;
+  color: aliceblue;
+  padding: 1rem;
+  border-radius: 3rem;
+}
