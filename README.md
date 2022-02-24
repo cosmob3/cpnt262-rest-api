@@ -7,7 +7,7 @@
 
 - Used the zoom video '[Exploring Open Data](https://sait-ca.zoom.us/rec/share/WpcJ2ZqI0_BkFYKvAOeNIXtzfnlmLQ62-6F5yKoOCVczi0wVqyTJ7g4QGmwRZSdx.kwJOkwQZzMVxtXzq)' fron January the 17th as a guide. Thank You, Tony!
 
-- Here is where I got my idea for the colour scheme [10 Contemporary and Bold](https://visme.co/blog/website-color-schemes/)
+- Here is where I got my idea for the colour scheme [50 Gorgeous Color Schemes From Award-Winning Websites](https://visme.co/blog/website-color-schemes/) used `10 Contemporary and Bold`
 
 ## February 23, 2022
 TODO: **Working on Fetching API Data Assignment**
