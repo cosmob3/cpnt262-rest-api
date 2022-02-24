@@ -7,7 +7,7 @@
 
 - Used the zoom video '[Exploring Open Data](https://sait-ca.zoom.us/rec/share/WpcJ2ZqI0_BkFYKvAOeNIXtzfnlmLQ62-6F5yKoOCVczi0wVqyTJ7g4QGmwRZSdx.kwJOkwQZzMVxtXzq)' fron January the 17th as a guide. Thank You, Tony!
 
-- Here is where I got my idea for the colour scheme [50 Gorgeous Color Schemes From Award-Winning Websites](https://visme.co/blog/website-color-schemes/) used `10 Contemporary and Bold`
+- Here is where I got my idea for the colour scheme [50 Gorgeous Color Schemes From Award-Winning Websites](https://visme.co/blog/website-color-schemes/) used `10 - Contemporary and Bold`
 
 ## February 23, 2022
 TODO: **Working on Fetching API Data Assignment**
@@ -75,3 +75,5 @@ I tried adding `const submitHandler = (event) => {
 Will move into Error Handling for now...
 
 As far as I am aware and I could see, we are all good when it comes to errors
+
+Finish... Kind of... couldn't figure out section 3 
